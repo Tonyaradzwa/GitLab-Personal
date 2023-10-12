@@ -7,7 +7,7 @@ def find_top_N(filename, n):
     """Finds the top N highest grossing movies in a CSV dataset.
        Input: filename, a string - points to filename of dataset
        Output: None
-       Effect: should print five lines of text
+       Effect: should print N lines of text
     """
     # read in file contents as list of dictionaries
     with open(filename) as f:
