@@ -9,13 +9,23 @@ long as you list those resources (e.g. peers, websites, etc.)
 1. What is the SHA for the last commit made by Prof. Xanda on the branch
 xanda_0000_movie_processing?
 (For this and future questions, the first 5 characters is plenty - neither
-Git nor I need the whole SHA.)
+Git nor I need the whole SHA.) 
+
+Answer: 9b257
 
 2. What is the SHA for the last commit associated with line 9 of this file?
 
+Answer: b2ed3
+
 3. What did line 12 of this file say in commit d1d83?
 
+Answer: 2. I should really finish writing this.
+
 4. What changed between commit e474c and 82045?
+
+Answer: The find_top function body was changed. A variable was changed
+into an int (x["Gross"] --> int(x["Gross"])) and -5 became 6 
+(rows[:-5:-1] --> rows[:-6:-1])
 
 ## Predicting merges
 
