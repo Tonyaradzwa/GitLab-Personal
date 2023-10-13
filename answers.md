@@ -47,6 +47,7 @@ What branches would change, and how?
 git checkout test
 git merge top_N
 ```
+Answer: Successful merge
 
 6. What do you think would happen if you ran the following commands?
 What branches would change, and how?
@@ -54,6 +55,8 @@ What branches would change, and how?
 git checkout top_ten
 git merge test
 ```
+Answer: asks for a commit message explaining why we are trying to merge
+an upstream into a topic branch.
 
 7. What do you think would happen if you ran the following commands?
 What branches would change, and how?
@@ -62,3 +65,4 @@ git checkout test
 git rebase top_ten
 git rebase top_N
 ```
+Answer: there is a merge conflict when trying to rebase changes from top_N
